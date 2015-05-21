@@ -1,0 +1,16 @@
+// Mixins
+
+@mixin blockCenter($width) {
+	display: block;
+	margin: 0 auto;
+	width: $width;
+}
+
+.container-error {
+	background-color: #ff0000; //Vermelho
+}
+
+.container {
+	@include blockCenter(200px);
+	@extend .container-error;
+}

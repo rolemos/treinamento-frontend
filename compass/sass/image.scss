@@ -1,0 +1,12 @@
+.logo {
+	background: image-url('logo.png')
+
+	h1 {
+		width: image-width('logo.png');
+		height: image-height('logo.png');
+	}
+}
+
+.inline-image {
+	background: inline-image('logo.png');
+}

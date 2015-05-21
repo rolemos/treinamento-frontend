@@ -1,0 +1,9 @@
+// Variables, Nesting, Colors, Expressions
+
+$blue: #3bbfce;
+$margin: 15px;
+
+.content {
+	border-color: $blue;
+	margin: $margin;
+}

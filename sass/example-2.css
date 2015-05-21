@@ -1,0 +1,9 @@
+.container-error, .container {
+  background-color: #ff0000; }
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 200px; }
+
+/*# sourceMappingURL=example-2.css.map */

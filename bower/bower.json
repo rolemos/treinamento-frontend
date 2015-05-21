@@ -1,0 +1,21 @@
+{
+  "name": "bowerExample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rolemos/treinamento-frontend",
+  "authors": [
+    "Rodrigo Lemos <rodrigolemosoliveira@gmail.com>"
+  ],
+  "description": "Pratical example",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "angular": "~1.3.15"
+  }
+}

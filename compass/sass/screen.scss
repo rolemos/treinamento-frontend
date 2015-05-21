@@ -1,0 +1,10 @@
+@import "compass/css3";
+
+.container {
+	@include border-radius(5px);
+	@include background-image(linear-gradient(#ffffff, #aaaaaa));
+}
+
+h1 {
+	@include text-shadow(rgba(0,0,0, 0.5) 2px 2px 5px);
+}

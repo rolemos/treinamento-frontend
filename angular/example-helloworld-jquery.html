@@ -1,0 +1,22 @@
+﻿<!doctype html>
+<html ng-app>
+  <head>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Hello World à moda jquery</h1>
+
+    <input type="text" id="nome">
+
+    <h2 id="saudacao"></h2>
+   
+    <script>
+    var nome = $('#nome');
+    var saudacao = $('#saudacao');
+
+    nome.keyup(function() {
+      saudacao.text('Olá ' + nome.val() + '!');
+    });
+    </script>
+  </body>
+</html>
