@@ -1,5 +1,6 @@
 # Treinamento Frontend
-## Treinamento Front-end para desenvolvedores Java
+
+Treinamento Front-end para desenvolvedores backend
 
 Itens abordados:
 - Client-side
