@@ -1,5 +1,8 @@
 .content {
   border-color: #3bbfce;
-  margin: 15px; }
+  margin: 30px; }
+  .content p {
+    margin: 15px;
+    color: #2b9eab; }
 
 /*# sourceMappingURL=example-1.css.map */

@@ -1,9 +1,16 @@
 // Variables, Nesting, Colors, Expressions
+@import "example-2"
 
 $blue: #3bbfce;
-$margin: 15px;
+$margin: 30px;
 
 .content {
 	border-color: $blue;
 	margin: $margin;
+	@include blockCenter(200px);
+
+	p {
+		margin: $margin / 2;
+		color: darken($blue, 10%);
+	}
 }
