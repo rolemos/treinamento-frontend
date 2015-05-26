@@ -1,0 +1,7 @@
+@function dividirValor($width) {
+	@return ($width / 2);
+}
+
+.container {
+	width: dividirValor(200px);
+}

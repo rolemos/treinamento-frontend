@@ -1,0 +1,23 @@
+{
+  "name": "angular-input-masks",
+  "version": "1.2.2",
+  "description": "Personalized and localized input masks for AngularJS",
+  "author": "igor.rafael@gmail.com",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "demo"
+  ],
+  "main": "releases/masks.min.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "angular": "~1.2.9",
+    "angular-mocks": "1.2.9",
+    "br-validations": "~0.2.0",
+    "string-mask": "~0.0.0"
+  }
+}
