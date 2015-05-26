@@ -23,6 +23,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/cetip', {
+        templateUrl: 'views/cetip.html',
+        controller: 'CetipCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
