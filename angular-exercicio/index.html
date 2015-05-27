@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html ng-app="exercicioApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício AngularJS</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <style>
+	    body {padding: 15px 0;} 
+	    .jumbotron h1 {margin-top: 0;font-size: 52px;}
+    </style>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    
+    <script>
+	    <!-- carrega o módulo -->
+	    var app = angular.module('exercicioApp', []);
+
+	    <!-- sua controller -->
+	    app.controller('exercicioController', function exercicioController($scope) {
+
+	    });
+    </script>
+</head>
+
+<body>
+    <div class="container" ng-controller="exercicioController">
+        <form class="row">
+            <div class="col-sm-6">
+                <div class="jumbotron">
+                    <h1>Ótima escolha!</h1>
+                    <p>Obrigado por comprar com a gente. Preencha seus dados ao lado.</p>
+                </div>
+                <!-- Painel de compras -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Sua compra</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label>Produto</label>
+                            <p class="form-control-static">Cardigan</p>
+                        </div>
+                        <div class="form-group">
+                            <label>Cor</label>
+                            <p class="form-control-static">Azul</p>
+                        </div>
+                        <div class="form-group">
+                            <label>Tamanho</label>
+                            <p class="form-control-static">38</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dados pessoais -->
+                <div class="page-header">
+                    <h3>Dados pessoais</h3>
+                </div>
+                <div class="form-group">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" class="form-control" id="nome" placeholder="">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <div class="input-group">
+                        <span class="input-group-addon">@</span>
+                        <input type="email" class="form-control" id="email" placeholder="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" class="form-control" id="cpf" placeholder="">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" checked="true"> Quero receber informações sobre a loja
+                    </label>
+                </div>
+				<!-- Cartão de credito -->
+                <div class="page-header">
+                	<h3>Cartão de crédito</h3>
+                </div>
+                <div class="form-group">
+                    <label for="num">Número</label>
+                    <input type="text" class="form-control" id="num" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="bandeira">Bandeira</label>
+                    <input type="text" class="form-control" id="bandeira" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="validade">Validade</label>
+                    <input type="text" class="form-control" id="validade" placeholder="">
+                </div>
+
+                <a href="#" class="btn btn-lg btn-primary pull-right"><span class="glyphicon glyphicon-thumbs-up"></span> Confirmar pedido</a>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
